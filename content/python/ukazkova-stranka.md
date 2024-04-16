@@ -43,7 +43,7 @@ Pro zvýraznění slov je možný udělat **bold**, nebo třeba *italic* a dá s
 
 Pokud chceme zvýraznit část jako samostatný blok ve větě tak `uděláme tohle`.
 
-Jestli nám jde o celý blok kódu který se dá kopírovat:
+Jestli nám jde o celý blok kódu který se dá kopírovat a podle toho, který jazyk zadáme na první stánku to bude zvírazňovat syntax:
 ```python
 a = "testovací proměná"
 print(a)
@@ -55,4 +55,5 @@ Console: testovací proměná
 ## zkuste si sami
 
 Tady na konec bude zadání úlohy, pro zjištění pochopení látky
+
 Asi se bude jednat o online editor a kompilátor
