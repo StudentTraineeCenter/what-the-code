@@ -57,3 +57,5 @@ Console: testovací proměná
 Tady na konec bude zadání úlohy, pro zjištění pochopení látky
 
 Asi se bude jednat o online editor a kompilátor
+
+Na konci ideálně ještě doděláme odkaz na další a předchozí blok + cestu na soubor s obsahem
