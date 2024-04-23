@@ -81,11 +81,12 @@ console: Nazdar světe
 ```
 
 
-Do textu můžeme vkládat i čísla z jiných porměných:
+Do textu můžeme vkládat i čísla z jiných porměných, ale při vkládání musíme upřesnit že se mají vložit jako text
+toho docílíme tím, že je dáme do závorek a před nanpíšeme str(zktratka pro string):
 ```python
 vek = 15
-text = "Je mi"
-print(text + vek + "let.")
+text = "Je mi "
+print(text + str(vek) + " let.")
 ```
 ```python
 console: Je mi 15 let.
