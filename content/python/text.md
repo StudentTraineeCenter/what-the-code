@@ -27,7 +27,7 @@ Pro jeden charakter z textu:
 text = "Nazdar světe"
 print(text[2])
 ```
-```python
+```
 console: z
 ```
 > Do hranatých závorek dáme pozici nešeho znaku. (počítá se od začítku od 0)
@@ -37,7 +37,7 @@ Pokud chceme část textu, použijeme index 1. a posledního znaku, kterých chc
 text = "Nazdar světe"
 print(text[2:6])
 ```
-```python
+```
 console: zdar
 ```
 > Poslední znak neni součástí výpisu
@@ -49,7 +49,7 @@ Od začátku až po r:
 text = "Nazdar světe"
 print(text[:6])
 ```
-```python
+```
 console: Nazdar
 ```
 > Poslední zank není opět započítán
@@ -60,7 +60,7 @@ Od mezery do konce:
 text = "Nazdar světe"
 print(text[6:])
 ```
-```python
+```
 console: světe
 ```
 
@@ -76,7 +76,7 @@ text2 = "světe"
 text = text1 + " " + text2
 print(text)
 ```
-```python
+```
 console: Nazdar světe
 ```
 
@@ -88,7 +88,7 @@ vek = 15
 text = "Je mi "
 print(text + str(vek) + " let.")
 ```
-```python
+```
 console: Je mi 15 let.
 ```
 
@@ -106,7 +106,7 @@ Při práci s textem můžeme využívat speciálních znaků pro jeho úpravu:
 text = "Nazdar\n\t\"světe\""
 print(text)
 ```
-```python
+```
 console: Nazdar
            "světe"
 ```
