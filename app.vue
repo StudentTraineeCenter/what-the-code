@@ -2,7 +2,7 @@
 useSeoMeta({
   title: 'What the Code',
   ogTitle: 'What the Code',
-  description: 'Tato stránka je úvodní stránka mého blogu.'
+  description: 'What the Code.'
 })
 </script>
 
@@ -11,7 +11,7 @@ useSeoMeta({
   <UContainer class="min-height">
     <NuxtPage />
   </UContainer>
-  <TheFooter />
+  <!-- <TheFooter /> -->
 
   <UNotifications />
 </template>
