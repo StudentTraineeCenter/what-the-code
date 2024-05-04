@@ -1,12 +1,14 @@
 # osnova
 
 - introduction
-- datové typy
-- podrobněji pro každý typ
-  - vytvoření proměných
-  - základní operace s nimi
+- datové typy a práce s nimi
+  - čísla
+  - text
+  - bool
 - komplexnější typy dat
-  - list, tuples, sets, slovníky
+  - listy
+  - tuples
+  - slovníky
 - podmínky
 - cykly
 - funkce
