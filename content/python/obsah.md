@@ -1,14 +1,16 @@
 # osnova
 
 - introduction
-- datové typy
-- podrobněji pro každý typ
-  - vytvoření proměných
-  - základní operace s nimi
-- komplexnější typy dat
-  - list, tuples, sets, slovníky
+- datové typy a práce s nimi
+  - čísla
+  - text
 - podmínky
-- cykly
+  - boolean
+- cykly 
+- komplexnější typy dat
+  - listy
+  - tuples
+  - slovníky
 - funkce
   - lambda funkce
 - try exept (řešení errorů)
