@@ -1,4 +1,4 @@
-# Datová typ boolean = Pravda/Nepravda
+# Datový typ boolean = Pravda/Nepravda
 
 Dalším datovým typen, který v Pythonu máme je boolean. Jedná se o datový typ, který může mít pouze dvě různé hodnoty:
 - True (pravda)
