@@ -8,3 +8,4 @@ Kde `False` je reprezentování 0 nebo prázdnou hodnotou a vše ostatní je `Tr
 
 Boolean se pak využívají například, pokud chceme zaznamenat, zda proběhla nějaká akce, nebo při rozhodování zada je splněna nějaká podmínka.
 
+O boolean se budeme více zajímat v modulu zaměřeném na podmínky.
