@@ -4,7 +4,7 @@
 - datové typy a práce s nimi
   - čísla
   - text
-  - bool
+  - boolean
 - komplexnější typy dat
   - listy
   - tuples
