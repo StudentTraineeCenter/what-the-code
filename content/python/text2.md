@@ -102,7 +102,3 @@ conzole: Maso stojí 75Kč za kg.
 |swapcase()|Z velkých písmen udělá malé a z malých velká|žádný argumenty nepoužívá|
 |title()|První písmeno každé slova se změní na velké||
 |isalpha()|Vrátí pravda, pokud jsou v textu pouze písmena||
-
-## Úkoly pro vyzkoušení
-
-
