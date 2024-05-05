@@ -4,8 +4,8 @@
 - datové typy a práce s nimi
   - čísla
   - text
-  - boolean
 - podmínky
+  - boolean
 - cykly 
 - komplexnější typy dat
   - listy
