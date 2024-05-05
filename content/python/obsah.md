@@ -5,12 +5,12 @@
   - čísla
   - text
   - boolean
+- podmínky
+- cykly 
 - komplexnější typy dat
   - listy
   - tuples
   - slovníky
-- podmínky
-- cykly
 - funkce
   - lambda funkce
 - try exept (řešení errorů)
