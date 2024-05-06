@@ -1,8 +1,8 @@
-# Listy = uložení více dat do jedné proměnné
+# Listy = uložení více hodnot do jedné proměnné
 
 ## Základní informace
 
-Listy slouží k ukládá více dat/informací do jedné promměné.
+Listy slouží k ukládá více hodnot do jedné promměné.
 Listy poznáme podle toho, že jsou ohraničeny hranatými závorkami `[]`.
 
 Vytvoření listu:
@@ -13,12 +13,16 @@ print(list)
 ```
 conzole: [1, 2, 3]
 ```
-> Jednotlivá data jsou oddělena `,`, pokud se jedná o text, musí být zapsán v uvozovkách.
+> Jednotlivé hodnoty jsou odděleny `,`, pokud se jedná o text, musí být zapsán v uvozovkách.
 
-Listy jsou řazený, neboli na pořadí záleží, a v jakém pořadí data zadáme, v takovém zůstanou.
-Tudíž pokud přidáme novou hodnotu, tak se přiřadí na konec. Pořadí je pak určeno indexem, který začíná od 0.
-Zároveň listy povolují duplikáty, takže každá hodnota se tam může vyskytovat kolikrát chceme.
-Listy nejsou definitivní, takže je můžeme upravovat, přidávat a ubírat data.
+Listy jsou **řazený**, neboli na **pořadí záleží**, a v jakém pořadí hodnoty zadáme, v takovém zůstanou.
+
+Tudíž pokud přidáme novou hodnotu, tak se přiřadí na konec. Pořadí je pak **určeno indexem**, který začíná od 0.
+
+Zároveň listy **povolují duplikáty**, takže každá hodnota se tam může vyskytovat kolikrát chceme.
+
+Listy **nejsou definitivní**, takže je můžeme upravovat, přidávat a ubírat hodnoty.
+
 Nakonec jeden list může obsahovat více datových typů najednou.
 
 ```python
@@ -34,12 +38,11 @@ print(len(list))
 ```
 conzole: 6
 ```
-
 > Stejná funkce funguje i pro string.
 
-## Přístup k datům a práce s nimi
+## Přístup k hodnotám a práce s nimi
 
-Pro přístup k datům zadáme do hranatých závorek pozici dat, která se snažíme získat:
+Pro přístup k hodnotě zadáme do hranatých závorek pozici hodnoty/hodnot, které se snažíme získat:
 
 ```python
 list = [1, "test", True, 2, 2, "konec"]
@@ -69,9 +72,9 @@ print(lsit[1:4])
 conzole: ["test", True, 2]
 ```
 
-### Změna dat v listu
+### Změna hodnot v listu
 
-Funguje stejně jako přidělení hodnotu proměnný, ale musíme zadat pozici, na kterou chceme hosnotu zadat:
+Funguje stejně jako přidělení hodnoty k proměnný, ale musíme zadat pozici, na kterou chceme hodnotu zapsat:
 
 ```python
 list = [1, 2, 3]
@@ -93,7 +96,7 @@ print(list)
 conzole: [1, 7, 8, 4, 5, 6]
 ```
 
-Pokud se tímto způsoběm pokusíme vložit víc/míň dat, než je oblast, kterou jsme vybrali, změní se délka listu.
+Pokud se tímto způsoběm pokusíme vložit víc/míň hodnot, než je oblast, kterou jsme vybrali, změní se délka listu.
 
 ```python
 list = [1, 2, 3, 4, 5, 6]
@@ -104,9 +107,9 @@ print(list)
 conzole: [1, 7, 8, 9, 10, 4, 5, 6]
 ```
 
-### Přidání dalších dat
+### Přidání dalších hodnot
 
-Pokud data nechceme přepisovat ale použe vložit, můžeme použít metodu `insert()`, kde nejpreve specifikuje pozici kam chceme dat avložit a následně co chceme vložit:
+Pokud hodnoty nechceme přepisovat ale pouze vložit, můžeme použít metodu `insert()`, kde nejprve specifikujeme pozici kam chceme hodnotu vložit a následně co tam chceme vložit:
 
 ```python
 list = [1, 2, 3, 4, 5, 6]
@@ -117,7 +120,7 @@ print(list)
 conzole: [1, 2, "x", 3, 4, 5, 6]
 ```
 
-Nebo pokud nám stačí připojit data na konec listu me metodu `append()`, která připojí data na konec listu:
+Nebo pokud nám stačí připojit hodnotu na konec listu máme metodu `append()`, která připojí hodnotu na konec listu:
 
 ```python
 list = [1, 2, 3, 4, 5, 6]
@@ -152,9 +155,9 @@ print(list)
 conzole: [1, 2, 3, 4, 5, 6]
 ```
 
-### Odstranění dat
+### Odstranění hodnot
 
-Když chceme odstranit data z listu máme pár možností. První z nich je pomocí metody `remove()`, kde zadáme obsah dat, která chceme odstranit:
+Když chceme odstranit hodnotu z listu máme pár možností. První z nich je pomocí metody `remove()`, kde zadáme obsah hodnoty, kterou chceme odstranit:
 ```python
 list = ["test", "ahoj", "zmiz", "jablko"]
 list.remove("zmiz")
@@ -165,7 +168,7 @@ conzole: ["test", "ahoj", "jablko"]
 ```
 > pokud jsou v listu duplicity, odstraní se první výskyt
 
-Další možností odstranění dat je metoda `pop()`, která buď odstraní data na zadaném indexu, nebo pokud necháme prázdnou odstraní podslední hodnotu v listu:
+Další možností odstranění hodnoty je metoda `pop()`, která buď odstraní hodnotu na zadaném indexu, nebo pokud necháme prázdnou odstraní podslední hodnotu v listu:
 
 ```python
 list = ["test", "ahoj", "zmiz", "jablko"]
@@ -176,7 +179,7 @@ print(list)
 conzole: ["test", "ahoj", "zmiz"]
 ```
 
-Pro odstranění dat na zadaném indexu se dá použít i slovo `del`:
+Pro odstranění hodnoty na zadaném indexu se dá použít i slovo `del`:
 
 ```python
 list = ["test", "ahoj", "zmiz", "jablko"]
@@ -224,7 +227,7 @@ list2 = list(list1)
 
 ### Seřazení listu
 
-Když chceme seřadit data v listu podle jejich hodnot můžeme použít metodu `sort()`, která seřadí data vzestupně(od A do Z):
+Když chceme seřadit údaje v listu podle jejich hodnot můžeme použít metodu `sort()`, která je seřadí vzestupně(od A do Z):
 
 ```python
 list = [4, 10, 9, 32, 7]
