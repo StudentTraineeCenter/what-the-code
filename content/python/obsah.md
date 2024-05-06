@@ -2,7 +2,7 @@
 
 - introduction
 - datové typy a práce s nimi
-  - čísla
+  - [čísla](/content/python/cisla.md)
   - text
 - podmínky
   - boolean
