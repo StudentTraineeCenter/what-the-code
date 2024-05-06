@@ -2,14 +2,15 @@
 
 - introduction
 - datové typy a práce s nimi
-  - čísla
-  - text
+  - [čísla](/content/python/cisla.md)
+  - [text](/content/python/text.md)
+  - [text pokračování](/content/python/text2.md)
+  - [boolean](/content/python/boolean.md)
 - podmínky
-  - boolean
 - cykly 
 - komplexnější typy dat
-  - listy
-  - tuples
+  - [listy](/content/python/listy.md)
+  - [tuples](/content/python/tuples.md)
   - slovníky
 - funkce
   - lambda funkce
