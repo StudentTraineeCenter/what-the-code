@@ -12,7 +12,7 @@
   - slovníky
 - podmínky
 - cykly
-  - while
+  - [while](/content/python/while_cykly.md)
   - for
 - funkce
   - lambda funkce
