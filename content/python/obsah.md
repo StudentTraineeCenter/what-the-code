@@ -9,7 +9,7 @@
 - komplexnější typy dat
   - [listy](/content/python/listy.md)
   - [tuples](/content/python/tuples.md)
-  - slovníky
+  - [slovniky](/content/python/slovniky.md)
 - podmínky
 - cykly
   - [while](/content/python/while_cykly.md)
