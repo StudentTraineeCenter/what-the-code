@@ -6,12 +6,14 @@
   - [text](/content/python/text.md)
   - [text pokračování](/content/python/text2.md)
   - [boolean](/content/python/boolean.md)
-- podmínky
-- cykly 
 - komplexnější typy dat
   - [listy](/content/python/listy.md)
   - [tuples](/content/python/tuples.md)
   - slovníky
+- podmínky
+- cykly
+  - [while](/content/python/while_cykly.md)
+  - for
 - funkce
   - lambda funkce
 - try exept (řešení errorů)
