@@ -13,7 +13,7 @@
 - podmínky
 - cykly
   - [while](/content/python/while_cykly.md)
-  - for
+  - [for](content/python/for_cykly.md)
 - funkce
   - lambda funkce
 - try exept (řešení errorů)
