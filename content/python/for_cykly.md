@@ -135,3 +135,40 @@ conzole: 1 jablko
 Stejné vkládání se dá dělat i u `while` cyklů a dají se i kombinovat
 
 ## úkoly na procvičení
+
+### palindrom
+
+Prvním úkolem je udělat program, kterému zadáme slovo/text, a napíše nám, zda se jedná o palindrom, nebo ne.
+
+Palindrom je slovo/text, který je stejná ať ho čteme ze předu, či ze zadu
+
+> příklad palindromu: "oko", "radar", "nepotopen"
+
+[řešení](/content/python/ukoly/palindrom.py)
+
+### fibonačiho posloupnost
+
+Dalším úkolem je udělat program, kterému zadáme číslo, a on nám napíše tolik posobějdoucích čísel fibonačiho posloupnosti.
+
+Fibonačiho posloupnost je taková, kde každé číslo je součtem dvou předchozích.
+
+> začítek posloupnosti: 1,1,2,3,5,8,13...
+
+[řešení](/content/python/ukoly/fibonaci_posloupnost.py)
+
+### stromeček
+
+Blíží se vánoce, a tak potřebujeme stromeček. Úkolem je udělat program, kde zadáme počet pater, a vykreslí nám do konzole stromeček.
+
+možný výstup:
+```
+console: Počet pater? 5
+    *
+   ***
+  *****
+ *******
+*********
+   ***
+```
+
+[řešení](/content/python/ukoly/stromek.py)

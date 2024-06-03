@@ -129,3 +129,56 @@ conzole: 1
 > Pokud se vám povede podobný cyklus spustit, běžtě do správce úloh a vypněte ho
 
 ## úkoly na procvičení
+
+### Uhodni číslo
+
+Úkolem je udělat hru, kde uživatel musí uhádnout číslo. Vždy se ho zeptáme na typ a řekneme mu, zda je číslo větší, či menší než hádané číslo.
+
+Jakmile uživatel číslo uhádne, tak mu pragram napíše, kolik pokusů mu to trvalo.
+
+Možný průběh:
+```
+Hádej číslo mezi 1 a 100.
+Kolik si myslíš?:50
+víc
+Kolik si myslíš?:75
+víc
+Kolik si myslíš?:83
+víc
+Kolik si myslíš?:90
+víc
+Kolik si myslíš?:95
+víc
+Kolik si myslíš?:98
+víc
+Kolik si myslíš?:99
+Hurá. hádané číslo bylo 99. Trvalo ti to celých 7 pokusů.
+```
+
+[řešení](/content/python/ukoly/hadej_cislo.py)
+
+### Šibenice
+
+Druhým úkolem je udělat hru šibenice. Kde hráč vždy zadá písmeno a pokud je v hádaném slově, tak se zobrazí. Pokud to chcete udělat těžší, můžete přidat omezený počet životů.
+
+Možný průběh:
+```
+Hádej slovo:
+----
+Máš 5 životů.
+Zadej písmeno: e
+-e--
+Zadej písmeno: a
+-e--
+Už máš jen 4 životy.
+Zadej písmeno: s
+-es-
+Zadej písmeno: a
+-es-
+Už máš jen 3 životy.
+Zadej písmeno: t
+test
+Gratuluji, uhádl jsi slovo test. Zbylé životy: 3.
+```
+
+řešení
