@@ -181,4 +181,4 @@ test
 Gratuluji, uhádl jsi slovo test. Zbylé životy: 3.
 ```
 
-řešení
+[řešení](/content/python/ukoly/sibenice.py)
