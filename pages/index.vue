@@ -1,7 +1,7 @@
 <template>
     <main class="mt-16 xl:mt-32">
         <div class="flex justify-center mb-6">
-            <UBadge color="primary" variant="subtle" class="text-center">Lorem ipsum dolor sit amet!</UBadge>
+            <UBadge color="blue" variant="subtle" class="text-center">Lorem ipsum dolor sit amet!</UBadge>
         </div>
         <h1>What the Code</h1>
         <div class="flex justify-center">
@@ -12,9 +12,9 @@
             </p>
         </div>
         <div class="flex max-xl:flex-col gap-6 justify-center mt-6">
-            <UButton class="flex justify-center" to="/" label="Přejít na domovskou stránku" color="primary" />
+            <UButton class="flex justify-center" to="/" label="Přejít na domovskou stránku" color="blue" />
             <UButton class="flex justify-center" to="/python" label="Přejít na stránku s materiály na Python"
-                color="primary" />
+                color="blue" />
         </div>
         <ContentList path="/" v-slot="{ list }">
             <div v-for="article in list" :key="article._path">
