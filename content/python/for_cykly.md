@@ -144,7 +144,7 @@ Palindrom je slovo/text, který je stejná ať ho čteme ze předu, či ze zadu
 
 > příklad palindromu: "oko", "radar", "nepotopen"
 
-[řešení](/content/python/ukoly/palindrom.py)
+[řešení](/content/python/ukoly/palindrom.md)
 
 ### fibonačiho posloupnost
 
@@ -154,7 +154,7 @@ Fibonačiho posloupnost je taková, kde každé číslo je součtem dvou předch
 
 > začítek posloupnosti: 1,1,2,3,5,8,13...
 
-[řešení](/content/python/ukoly/fibonaci_posloupnost.py)
+[řešení](/content/python/ukoly/fibonaci_posloupnost.md)
 
 ### stromeček
 
@@ -171,4 +171,4 @@ console: Počet pater? 5
    ***
 ```
 
-[řešení](/content/python/ukoly/stromek.py)
+[řešení](/content/python/ukoly/stromek.md)
