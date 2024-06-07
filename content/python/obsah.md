@@ -1,6 +1,7 @@
 # osnova
 
 - introduction
+- [proměnné](/content/python/promenne.md)
 - datové typy a práce s nimi
   - [čísla](/content/python/cisla.md)
   - [text](/content/python/text.md)
