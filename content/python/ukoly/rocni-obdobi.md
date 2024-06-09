@@ -12,6 +12,7 @@ Zadej číslo měsíce 1-12: 3
 Práve je Březen a je jaro.
 ```
 
+::show
 ## Řešení
 
 ```python
@@ -32,3 +33,4 @@ elif mesic in [9, 10, 11]:
 else:
     print("Neplatný měsíc.")
 ```
+::

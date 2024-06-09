@@ -28,6 +28,7 @@ test
 Gratuluji, uhádl jsi slovo test. Zbylé životy: 3.
 ```
 
+::show
 ## Řešení
 
 ```python
@@ -62,5 +63,5 @@ while zivoty != 0: # dokud hráči nedojdou životy
         print("Špatně, už máš jen " + str(zivoty) + " životů!")
 else:
     print("Bohužel ti došli životy :-(")
-    
 ```
+::

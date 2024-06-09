@@ -7,6 +7,7 @@ Palindrom je slovo, které se čte stejně od zadu jako ze předu.
 
 Příklad palindromu: oko, madam, radar, nepotopen...
 
+::show
 ## Řešení
 
 ```python
@@ -31,3 +32,4 @@ if slovo == slovo[::-1]:
 else:
    print("Slovo neni palindrom!")
 ```
+::

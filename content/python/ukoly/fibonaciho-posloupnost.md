@@ -6,6 +6,7 @@ Program od uživatele přijme číslo a vypíše mu tolik členů Fibonačiho po
 Fibonačiho posloupnost je taková, kde každé číslo je rovno součtu dvou předchozích.
 Začítek posloupnosti: 1,1,2,3,5,8,13...
 
+::show
 ## Řešení
 
 ```python
@@ -43,3 +44,4 @@ for x in range(pocet):
 
 print(posloupnost)
 ```
+::

@@ -21,6 +21,7 @@ Zadej rok: 1986
 Rok je nepřestupný
 ```
 
+::show
 ## Řešení
 
 ```python
@@ -31,3 +32,4 @@ if rok % 4 == 0 and rok % 100 != 0 or rok % 400 == 0:
 else:
     print("Rok je nepřestupný!")
 ```
+::

@@ -18,6 +18,7 @@ console: Počet pater? 5
    ***
 ```
 
+::show
 ## Řešení
 
 ```python
@@ -35,3 +36,4 @@ for x in range(pocet):
 kmen = (pocet-1)*" " + "***"
 print(kmen) # vypíšeme kmen
 ```
+::

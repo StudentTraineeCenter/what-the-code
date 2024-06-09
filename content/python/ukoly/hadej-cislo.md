@@ -26,6 +26,7 @@ Kolik si myslíš?:99
 Hurá. hádané číslo bylo 99. Trvalo ti to celých 7 pokusů.
 ```
 
+::show
 ## Řešení
 
 ```python
@@ -51,3 +52,4 @@ while True:
         break
     pokusy += 1
 ```
+::
