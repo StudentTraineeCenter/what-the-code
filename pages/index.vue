@@ -1,7 +1,7 @@
 <template>
-    <main class="mt-16 xl:mt-32">
+    <main class="my-16 xl:my-32">
         <div class="flex justify-center mb-6">
-            <UBadge color="blue" variant="subtle" class="text-center">Lorem ipsum dolor sit amet!</UBadge>
+            <UBadge color="blue" variant="subtle">Nauč se programovat čistě v češtině!</UBadge>
         </div>
         <h1>What the Code</h1>
         <div class="flex justify-center">

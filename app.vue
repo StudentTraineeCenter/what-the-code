@@ -32,14 +32,15 @@ h1 {
   font-size: 48px;
   text-align: center;
   color: var(--black);
+  margin-bottom: 32px;
 }
 
 h2 {
   font-size: 32px;
   color: var(--blue-primary);
   text-align: center;
-  margin-top: 32px;
-  margin-bottom: 16px;
+  margin-top: 64px;
+  margin-bottom: 32px;
 }
 
 footer {

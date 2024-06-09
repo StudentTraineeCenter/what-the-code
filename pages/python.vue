@@ -1,7 +1,7 @@
 <template>
     <main class="my-16 xl:my-32">
         <div class="flex justify-center mb-6">
-            <UBadge color="blue" variant="subtle" class="text-center">Lorem ipsum dolor sit amet!</UBadge>
+            <UBadge color="blue" variant="subtle">Nauč se programovat čistě v češtině!</UBadge>
         </div>
         <h1>Programování v Pythonu</h1>
         <div class="flex justify-center">
