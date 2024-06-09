@@ -155,7 +155,7 @@ Kolik si myslíš?:99
 Hurá. hádané číslo bylo 99. Trvalo ti to celých 7 pokusů.
 ```
 
-[řešení](/content/python/ukoly/hadej_cislo.py)
+[řešení](/content/python/ukoly/hadej_cislo.md)
 
 ### Šibenice
 
@@ -181,4 +181,4 @@ test
 Gratuluji, uhádl jsi slovo test. Zbylé životy: 3.
 ```
 
-[řešení](/content/python/ukoly/sibenice.py)
+[řešení](/content/python/ukoly/sibenice.md)

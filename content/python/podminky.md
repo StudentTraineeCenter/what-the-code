@@ -120,6 +120,91 @@ Správně
 Konec programu
 ```
 
+### Víc podmínek v jednom if
+
+Pokud potřebujeme ověřit více podmínek, máme kromě vnořování ještě možnost vložit víc parametrů do jednoho if. Toho docílíme pomocí operátorů mezi jednotlivými parametry. 
+Dvojtečka se pak píše až poslední podmínku.
+
+|operátor|funkce|
+|---|---|
+|`and`|pokud jsou splněni obě podmínky tak je pravda, jinak je nepravda|
+|`or`|stačí aby byla splněna jedna z podmínek pak je pravda|
+|`not`|jedná se o zápor, otočí výsledek dané podmínky, stejěn jako `!`|
+
+Použití:
+```python
+cislo = int(input("Zadej číslo od 1 do 10: "))
+
+if cislo < 1 or cislo > 10:
+    print("Zadal jsi špatné číslo!")
+else:
+    print("Číslo bylo přijato.")
+```
+
+> Pokud je splněna podmínka, že číslo je menší než jedna nebo je splněna podmínka, že číslo je větší než deset, tak bude celková podmínka pravdivá.
+
+Pokud chceme použít víc jak dvě podmínky, pak musí dbát na pořadí, jelikož podmínky se vyhodnocují z leva do prava. Proto pokud je chceme oddělit, musíme použít závorky.
+
+### Zda je obsaženo
+
+Speciální případ je, když se snažíme zjisiti zda nějaký text nebo třeba list obsahuje naši hodnotu.
+Místo abychom procházeli celý list nám stačí použít operáto `in`
+
+Použití:
+```python
+text = "testovani"
+
+if "a" in text:
+    print("obsahuje")
+else:
+    print("neni obsaženo")
+```
+
+Toho lze využít nejen při hledání přímé věci, ale můžeme se ptát, zda je daná proměnná obsažena v listu:
+
+```python
+seznam = ["a","b","c","d","e"]
+pismeno = "c"
+
+if pismeno in seznam:
+    print("obsahuje")
+else:
+    print("neni obsaženo")
+```
+
 ## úkoly na procvičení
 
-Naprogramuj kód, který vyžádá uživatele o vyřešení několika matematických operací. Pokud některou z nich nezodpoví správně, program skončí. NÁPAD
+### přestupný rok
+
+První úkol je udělat program do které když zadáme rok, tak nám řekne zda je rok přestupný či nikoliv.
+Přestupnost roku má tři pravidla: 
+- když je rok dělitelný 4 je přestupný
+- když je rok dělitelný 100 je nepřestupný
+- když je rok dělitelný 400 je přestupný
+
+průběh:
+```
+Zadej rok: 2004
+Rok je přestupný.
+
+Zadej rok: 2100
+Rok je nepřestupný.
+
+Zadej rok: 1986
+Rok je nepřestupný
+```
+
+[řešení](/content/python/ukoly/prestuny_rok.md)
+
+### roční období a měsíc
+
+Když už umíme rozlišit přestupný a nepřestupný rok, teď potřebujeme rozlišit roční obdbí, a když už jsme u toho tak i vypsat slovy dný měsíc.
+Uživatel zadá číslo měcíse a program podle toho vypíše Měsíc a roční období.
+
+ukázka
+```
+Zadej číslo měsíce 1-12: 3
+Práve je Březen a je jaro.
+```
+
+[řešení](/content/python/ukoly/rocni_obdobi.md)
