@@ -1,9 +1,9 @@
 <template>
-    <main class="mt-16 xl:mt-32">
+    <main class="my-16 xl:my-32">
         <div class="flex justify-center mb-6">
-            <UBadge color="primary" variant="subtle" class="text-center">Lorem ipsum dolor sit amet!</UBadge>
+            <UBadge color="blue" variant="subtle">Nauč se programovat čistě v češtině!</UBadge>
         </div>
-        <h1>Programování v Pythonu</h1>
+        <h1>Úkoly v Pythonu</h1>
         <div class="flex justify-center">
             <p class="black-text max-w-[840px] text-center my-4">Lorem ipsum dolor sit amet, consectetur adipiscing
                 elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vitae congue mauris rhoncus
@@ -12,11 +12,11 @@
             </p>
         </div>
         <div class="flex max-xl:flex-col gap-6 justify-center mt-6">
-            <UButton class="flex justify-center" to="/" label="Přejít na domovskou stránku" color="primary" />
+            <UButton class="flex justify-center" to="/" label="Přejít na domovskou stránku" color="blue" />
             <UButton class="flex justify-center" to="/python" label="Přejít na stránku s materiály na Python"
-                color="primary" />
+                color="blue" />
         </div>
-        <ContentList path="/python" v-slot="{ list }">
+        <ContentList path="/python/ukoly" v-slot="{ list }">
             <div v-for="article in list" :key="article._path">
                 <NuxtLink :to="`${article._path}`">
                     <UCard class="mt-24">

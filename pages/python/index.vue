@@ -3,7 +3,7 @@
         <div class="flex justify-center mb-6">
             <UBadge color="blue" variant="subtle">Nauč se programovat čistě v češtině!</UBadge>
         </div>
-        <h1>What the Code</h1>
+        <h1>Programování v Pythonu</h1>
         <div class="flex justify-center">
             <p class="black-text max-w-[840px] text-center my-4">Lorem ipsum dolor sit amet, consectetur adipiscing
                 elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vitae congue mauris rhoncus
@@ -13,10 +13,10 @@
         </div>
         <div class="flex max-xl:flex-col gap-6 justify-center mt-6">
             <UButton class="flex justify-center" to="/" label="Přejít na domovskou stránku" color="blue" />
-            <UButton class="flex justify-center" to="/python" label="Přejít na stránku s materiály na Python"
+            <UButton class="flex justify-center" to="/python/ukoly" label="Přejít na stránku s úkoly na Python"
                 color="blue" />
         </div>
-        <ContentList path="/" v-slot="{ list }">
+        <ContentList path="/python" v-slot="{ list }">
             <div v-for="article in list" :key="article._path">
                 <NuxtLink :to="`${article._path}`">
                     <UCard class="mt-24">

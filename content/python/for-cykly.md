@@ -4,9 +4,7 @@ V téhle části modulu si ukážeme cykly typu `for`
 
 ## použití
 
-Cyklus `for` se používá pokud chceme projít list, tuple, slovník, string nebo určitý počet opakování.
-
-Funguje tak, že když mu zadáme co má procházet, vykoná jeden cyklus pro každý element.
+Cyklus `for` se používá pokud chceme projít list, tuple, slovník, string nebo určitý počet opakování. Funguje tak, že když mu zadáme co má procházet, vykoná jeden cyklus pro každý element.
 
 ```python
 list = ["jablko", "test", "pokus"]

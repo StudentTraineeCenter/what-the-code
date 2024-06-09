@@ -1,36 +1,3 @@
-# Šibenice
-
-## Zadání
-
-Úkolem je udělat hru šibenice.
-Hráč se dozví, jak dlouhé je slovo a postupně hádá písmena po jendom.
-Pokud uhodne správně tak se písmeno doplní do slova, pokud špatně tak hráč ztratí život.
-Pokud hráč neuhodne slovo, dokod mu dedojdou životy, tak prohraje
-
-## Možný průběh
-
-```
-Hádej slovo:
-----
-Máš 5 životů.
-Zadej písmeno: e
--e--
-Zadej písmeno: a
--e--
-Už máš jen 4 životy.
-Zadej písmeno: s
--es-
-Zadej písmeno: a
--es-
-Už máš jen 3 životy.
-Zadej písmeno: t
-test
-Gratuluji, uhádl jsi slovo test. Zbylé životy: 3.
-```
-
-## Řešení
-
-```python
 import random # knihodna pro vytvoření náhodného čísla
 # seznam slov ze kterých se vybírá
 slova = ["test", "nevim", "strom", "sprej", "housenka", "expedice", "astronomie", "zmrzlina"]
@@ -63,4 +30,5 @@ while zivoty != 0: # dokud hráči nedojdou životy
 else:
     print("Bohužel ti došli životy :-(")
     
-```
+
+
