@@ -34,4 +34,6 @@ Za každou snahu zlepšit platformu What The Code děkujeme. :)
 plánovaná rozšíření
 
 - [ ] Vlastní hosting
+- [ ] Guide na vytvoření vlastního kódovacího prostředí
+- [ ] zprovoznit compiler přímo na stránce
 
